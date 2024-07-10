@@ -21,13 +21,13 @@ content_body {
 
 .content_title {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
 .content_subtitle {
     font-size: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 10px; */
     text-align: center;
 }
 
