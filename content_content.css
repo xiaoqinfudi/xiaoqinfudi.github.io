@@ -70,6 +70,20 @@ content_body {
     margin: 20px;
 }
 
+.content_little_images_height500 {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中，若父容器有固定高度 */
+    flex-wrap: wrap; /* 如果有多张图片，自动换行 */
+    gap: 10px; /* 图片间的间距 */
+}
+
+.content_little_images_height500 img {
+    height: 500px;
+    border-radius: 4px;
+    width: auto;
+    margin: 20px;
+}
 
 /* styles.css */
 .full_text {
